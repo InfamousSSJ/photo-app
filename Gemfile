@@ -10,11 +10,13 @@ end
 gem 'rails', '~> 5.1.5'
 # Use for authentication
 gem 'devise'
-# Use for styling
+# Use for styling and jquery
 gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 gem 'devise-bootstrap-views'
 gem 'font-awesome-rails'
+# Stripe for payments
+gem 'stripe'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
